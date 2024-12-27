@@ -21,6 +21,7 @@ import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
 import vr from './vr.png'
+import game from './game.png'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
@@ -43,6 +44,7 @@ export {
     mui,
     nextjs,
     vr,
+    game,
     nodejs,
     react,
     redux,

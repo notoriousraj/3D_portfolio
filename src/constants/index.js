@@ -8,6 +8,7 @@ import {
     threads,
     vr,
     unity,
+    game,
     ps,
     blender
 } from "../assets/icons";
@@ -99,20 +100,13 @@ export const socialLinks = [
     }
 ];
 
-export const projects = [
+export const projects = [ 
     {
-        iconUrl: vr,
-        theme: 'btn-back-red',
-        name: 'VRXplore Spaces',
-        description: 'Architour VR" is a collaborative virtual reality platform designed for exploring architectural spaces in immersive detail. Hosted from a mobile or VR device, this experience allows multiple VR users to join and navigate together through 3D architectural environments. Ideal for designers, architects, or enthusiasts, this tool fosters shared virtual exploration and visualization of architectural layouts, bringing blueprints to life and enhancing remote collaboration in real-time.',
-        link: 'https://youtu.be/BmAqyxWQL9M',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Drone Sim',
-        description: '"Drone Sim" is an immersive defense simulation game where players must safeguard a base under attack by hostile enemy drones. As the commander of interceptor drones, players strategize to intercept, engage, and eliminate threats before they breach the base’s defenses. Featuring dynamic drone AI, tactical interception mechanics, and escalating waves of enemies, Drone Sim challenges players to think critically and respond swiftly, making it an ideal game for fans of high-stakes, real-time defense scenarios.',
-        link: 'https://youtu.be/rQ6SJDfvHQI',
+        iconUrl: game,
+        theme: 'btn-back-blue',
+        name: 'Online Gun Game',
+        description: 'Gun Game is a straightforward online multiplayer shooter developed with Photon Fusion. Players can join or create a room by entering a room name and their username. The game offers fast-paced combat with real-time synchronization for player movement, shooting, and hit detection. Players can respawn after being eliminated, ensuring continuous action. The gameplay is simple yet engaging, supporting free-for-all or team-based modes, with score tracking to add a competitive edge.',
+        link: 'https://github.com/notoriousraj/Gun-Game-Online',
     },
     {
         iconUrl: threads,
@@ -130,9 +124,16 @@ export const projects = [
     },
     {
         iconUrl: vr,
-        theme: 'btn-back-blue',
-        name: 'Online Gun Game',
-        description: 'Gun Game is a straightforward online multiplayer shooter developed with Photon Fusion. Players can join or create a room by entering a room name and their username. The game offers fast-paced combat with real-time synchronization for player movement, shooting, and hit detection. Players can respawn after being eliminated, ensuring continuous action. The gameplay is simple yet engaging, supporting free-for-all or team-based modes, with score tracking to add a competitive edge.',
-        link: 'https://github.com/notoriousraj/Gun-Game-Online',
+        theme: 'btn-back-red',
+        name: 'VRXplore Spaces',
+        description: 'Architour VR" is a collaborative virtual reality platform designed for exploring architectural spaces in immersive detail. Hosted from a mobile or VR device, this experience allows multiple VR users to join and navigate together through 3D architectural environments. Ideal for designers, architects, or enthusiasts, this tool fosters shared virtual exploration and visualization of architectural layouts, bringing blueprints to life and enhancing remote collaboration in real-time.',
+        link: 'https://youtu.be/BmAqyxWQL9M',
+    },
+    {
+        iconUrl: game,
+        theme: 'btn-back-green',
+        name: 'Drone Sim',
+        description: '"Drone Sim" is an immersive defense simulation game where players must safeguard a base under attack by hostile enemy drones. As the commander of interceptor drones, players strategize to intercept, engage, and eliminate threats before they breach the base’s defenses. Featuring dynamic drone AI, tactical interception mechanics, and escalating waves of enemies, Drone Sim challenges players to think critically and respond swiftly, making it an ideal game for fans of high-stakes, real-time defense scenarios.',
+        link: 'https://youtu.be/rQ6SJDfvHQI',
     }
 ];
