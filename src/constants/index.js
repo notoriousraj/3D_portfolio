@@ -4,13 +4,15 @@ import {
     git,
     github,
     html,
+    css,
     linkedin,
     threads,
     vr,
     unity,
     game,
     ps,
-    blender
+    blender,
+    javascript
 } from "../assets/icons";
 
 export const skills = [
@@ -43,6 +45,16 @@ export const skills = [
     {
         imageUrl: html,
         name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "Java Script",
         type: "Frontend",
     }
 ];
@@ -100,13 +112,20 @@ export const socialLinks = [
     }
 ];
 
-export const projects = [ 
+export const projects = [
     {
         iconUrl: game,
         theme: 'btn-back-blue',
         name: 'Online Gun Game',
         description: 'Gun Game is a straightforward online multiplayer shooter developed with Photon Fusion. Players can join or create a room by entering a room name and their username. The game offers fast-paced combat with real-time synchronization for player movement, shooting, and hit detection. Players can respawn after being eliminated, ensuring continuous action. The gameplay is simple yet engaging, supporting free-for-all or team-based modes, with score tracking to add a competitive edge.',
         link: 'https://github.com/notoriousraj/Gun-Game-Online',
+    },
+    {
+        iconUrl: game,
+        theme: 'btn-back-green',
+        name: 'Monopoly Online',
+        description: 'Welcome to the Multiplayer Monopoly Game, a classic board game brought to life in Unity with Netcode for multiplayer functionality! This game allows players to compete with each other in real-time, buying properties, collecting rent, and aiming to bankrupt their opponents. You can also play against bots for a solo experience or to practice your strategies.',
+        link: 'https://github.com/notoriousraj/Monopoly',
     },
     {
         iconUrl: threads,
@@ -135,5 +154,5 @@ export const projects = [
         name: 'Drone Sim',
         description: '"Drone Sim" is an immersive defense simulation game where players must safeguard a base under attack by hostile enemy drones. As the commander of interceptor drones, players strategize to intercept, engage, and eliminate threats before they breach the base’s defenses. Featuring dynamic drone AI, tactical interception mechanics, and escalating waves of enemies, Drone Sim challenges players to think critically and respond swiftly, making it an ideal game for fans of high-stakes, real-time defense scenarios.',
         link: 'https://youtu.be/rQ6SJDfvHQI',
-    }
+    },
 ];
