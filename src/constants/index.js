@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, synapse, dsi } from "../assets/images";
+import { meta, shopify, starbucks, tesla, whitetusker, synapse, dsi, mercedes } from "../assets/images";
 import {
     contact,
     git,
@@ -91,6 +91,34 @@ export const experiences = [
             "Implemented responsive UI and ensured cross - platform compatibility for mobile and VR devices.",
             "Participated in code reviews, providing constructive feedback and helping maintain code quality and performance standards across projects.",
         ],
+    },
+    {
+        title: "Unity Developer",
+        company_name: "White Tusker",
+        icon: whitetusker,
+        iconBg: "#accbe1",
+        date: "April 2025 - August 2025",
+        points: [
+            "Developed AR content and applications for Xreal glasses, enhancing immersive experiences tailored for wearable AR devices.",
+            "Worked on integrating Unity WebRTC to build a real-time streaming platform, enabling seamless content sharing across multiple AR glasses.",
+            "Collaborated with designers and developers to create optimized XR experiences for both standalone and streaming-based workflows.",
+            "Leveraged Unity’s ARFoundation and third-party SDKs to ensure high performance on AR wearables.",
+            "Implemented cross-platform compatibility and responsive UI for smooth interaction in AR environments.",
+        ],
+    },
+    {
+        title: "Software Developer",
+        company_name: "Mercedes Benz Research and Development India",
+        icon: mercedes,
+        iconBg: "#accbe1",
+        date: "August 2025 - Current",
+        points: [
+            "Exploring and learning NVIDIA Omniverse to develop collaborative 3D simulation and digital twin solutions.",
+            "Working with Python for automation, data processing, and integration with Omniverse workflows.",
+            "Collaborating with cross-functional engineering teams to support AR/VR and simulation-based projects.",
+            "Researching and prototyping advanced visualization pipelines for enterprise-level automotive applications.",
+            "Contributing to innovative solutions at the intersection of real-time 3D graphics, simulation, and software development.",
+        ],
     }
 ];
 
@@ -113,6 +141,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: game,
+        theme: 'btn-back-yellow',
+        name: 'Xreal Chess',
+        description: 'Xreal Chess is an augmented reality chess game built for Xreal glasses. The game allows players to experience classic chess in AR, featuring an interactive board and pieces rendered directly into their real-world environment. A lightweight AI opponent was implemented to provide a basic but engaging solo play experience, making it both a tech demo and a fun casual AR game.',
+        link: 'https://github.com/notoriousraj/XRealChess',
+    },
+    {
+        iconUrl: game,
+        theme: 'btn-back-blue',
+        name: 'JumpTag',
+        description: 'JumpTag is a fun prototype game where a bot runs and jumps across platforms while the player must chase and catch it. The gameplay challenge is based on how many times you can successfully catch the bot within a limited time, testing your reaction speed and timing.',
+        link: 'https://github.com/notoriousraj/JumpTag.git',
+    },
     {
         iconUrl: game,
         theme: 'btn-back-blue',

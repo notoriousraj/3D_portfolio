@@ -7,7 +7,8 @@ import synapse from './synapse.jpeg'
 import tesla from './tesla.png'
 import logo from './logo.svg'
 import Logo from './Logo1.svg'
-
+import whitetusker from './whitetusker.png'
+import mercedes from './mercedes.jpeg'
 export {
     hero,
     meta,
@@ -17,5 +18,7 @@ export {
     tesla,
     logo,
     Logo,
-    synapse
+    synapse,
+    whitetusker,
+    mercedes
 }
